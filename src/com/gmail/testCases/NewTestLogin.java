@@ -20,5 +20,6 @@ public class NewTestLogin {
 	  
 	  LoginNewPages login = PageFactory.initElements(driver, LoginNewPages.class);
 	  login.failLogin("admin", "demo123");
+//tiene que dar
   }
 }
